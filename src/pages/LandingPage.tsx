@@ -61,7 +61,7 @@ const LandingPage = () => {
             </p>
             <nav aria-label="Primary actions" className="flex flex-wrap gap-4">
               <a
-                href="https://surveynewregime.vercel.app/auth?mode=signup"
+                href="https://surveynewborn-jade.vercel.app/auth"
                 className="group relative px-8 py-3.5 rounded-2xl gradient-primary text-primary-foreground font-bold text-base hover:scale-105 transition-all duration-300 shadow-2xl shadow-primary/40 flex items-center gap-2 overflow-hidden"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/30 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
@@ -69,7 +69,7 @@ const LandingPage = () => {
                 <ArrowRight className="relative w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="https://surveynewregime.vercel.app/auth?mode=signin"
+                href="https://surveynewborn-jade.vercel.app/auth?mode=signin"
                 className="group px-8 py-3.5 rounded-2xl bg-card/5 backdrop-blur-xl border border-card/30 text-card font-semibold text-base hover:bg-card/15 hover:border-primary/50 transition-all duration-300"
               >
                 Sign In
@@ -203,13 +203,13 @@ const LandingPage = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="https://surveynewregime.vercel.app/auth?mode=signup"
+              href="https://surveynewborn-jade.vercel.app/auth"
               className="group px-10 py-4 rounded-full bg-card text-foreground font-bold text-base hover:bg-card/90 transition-all shadow-xl flex items-center gap-2"
             >
               Create Free Account <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="https://surveynewregime.vercel.app/auth?mode=signin"
+              href="https://surveynewborn-jade.vercel.app/auth?mode=signin"
               className="px-10 py-4 rounded-full border-2 border-card/30 text-card font-semibold text-base hover:bg-card/10 transition-all"
             >
               Sign In

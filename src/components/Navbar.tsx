@@ -24,13 +24,13 @@ const Navbar = ({ isApp = false }: { isApp?: boolean }) => {
               <a href="#categories" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Categories</a>
               <a href="#testimonials" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Testimonials</a>
               <a
-                href="https://surveynewregime.vercel.app/auth?mode=signin"
+                href="https://surveynewborn-jade.vercel.app/auth?mode=signin"
                 className="text-sm font-semibold text-foreground hover:text-primary transition-colors"
               >
                 Sign In
               </a>
               <a
-                href="https://surveynewregime.vercel.app/auth?mode=signup"
+                href="https://surveynewborn-jade.vercel.app/auth"
                 className="px-6 py-2.5 rounded-full gradient-primary text-primary-foreground font-semibold text-sm hover:opacity-90 transition-all shadow-lg shadow-primary/25"
               >
                 Start Earning →
@@ -47,14 +47,14 @@ const Navbar = ({ isApp = false }: { isApp?: boolean }) => {
                 <a href="#categories" className="py-2 text-sm font-medium text-muted-foreground" onClick={() => setIsOpen(false)}>Categories</a>
                 <a href="#testimonials" className="py-2 text-sm font-medium text-muted-foreground" onClick={() => setIsOpen(false)}>Testimonials</a>
                 <a
-                  href="https://surveynewregime.vercel.app/auth?mode=signin"
+                  href="https://surveynewborn-jade.vercel.app/auth?mode=signin"
                   className="py-2 text-sm font-semibold text-foreground"
                   onClick={() => setIsOpen(false)}
                 >
                   Sign In
                 </a>
                 <a
-                  href="https://surveynewregime.vercel.app/auth?mode=signup"
+                  href="https://surveynewborn-jade.vercel.app/auth"
                   className="mt-2 px-6 py-2.5 rounded-full gradient-primary text-primary-foreground font-semibold text-sm text-center"
                   onClick={() => setIsOpen(false)}
                 >
